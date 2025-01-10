@@ -1,8 +1,19 @@
-# React + Vite
+# 영화 앱 (Movie App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 **Vite**를 사용하여 빠르고 효율적으로 구축한 영화 검색 애플리케이션입니다. 사용자가 다양한 영화를 검색하고, 관련된 정보(제목, 개봉일, 줄거리 등)를 확인할 수 있습니다. 이 앱은 **OMDb API** 또는 **TMDb API**와 같은 영화 데이터 API를 활용하여 정보를 제공합니다.
 
-Currently, two official plugins are available:
+## 기능
+- 영화 제목을 검색하여 관련된 영화 목록을 표시
+- 영화의 상세 정보를 조회 (제목, 줄거리, 개봉일 등)
+- 검색 결과에 따라 실시간 필터링
+- 사용하기 쉬운 인터페이스
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 기술 스택
+- **Frontend**: React, Vite
+- **API**: OMDb API (혹은 TMDb API)
+- **스타일링**: CSS (또는 TailwindCSS)
+
+## 설치 방법
+
+### 1. 프로젝트 클론
+먼저 GitHub에서 이 프로젝트를 클론합니다.
